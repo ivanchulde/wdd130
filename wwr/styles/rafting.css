@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #B1E5F2;
+    --secondary-color: #272635;
+    --text-color: #333333;
+    --background-color: #E8E9F3;
+    --accent-color1: #A6A6A8;
+    --accent-color2: #CECECE;
+}
+
+.hero {
+    position: relative; /* Permite que los elementos hijos con position absolute se ubiquen dentro de este contenedor */
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;   /* Posicionamiento absoluto para mayor control */
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra perfectamente en ambas direcciones */
+    color: #fff;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    
+}
+
+.hero article {
+    position: absolute;
+    top: 200px;
+    left: 75px;
+   
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+
+.hero article img {
+    float: right; /* Imagen flotante a la derecha del texto */
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.hero article p {
+    margin: 0; /* Elimina el margen del párrafo para que el diseño sea limpio */
+}
+
+h2 {
+    
+}
