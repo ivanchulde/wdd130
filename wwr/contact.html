@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ANIV Ing">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <img src="images/logo.png" alt="White Water Rafting Logo" width="100" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+        <div class="location-section card-style">
+            <div class="company_information">              
+                <img src="images/logo.png" alt="History Image" />
+                <h2>ANIV Raftings</h2>
+                <p>Federico Proaño</p>
+                <p>Ambato, Ecuador</p>
+                <p>Phone: +593982322923</p>
+                <p>Email: aniv.ing.ec@gmail.com</p>
+            </div>
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.8131759844864!2d-78.63807792551704!3d-1.286128635624927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMTcnMTAuMSJTIDc4wrAzOCcwNy44Ilc!5e0!3m2!1ses!2sec!4v1744348406400!5m2!1ses!2sec"
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        
+        <div class="Employee"> 
+        <h2>Meet Our Team</h2>
+        <div class="employee-card">
+            <img src="images/ivan.jpg" alt="Ivan Chulde">
+            <p><strong>Iván Chulde</strong><br>Founder & Rafting Guide</p>
+        </div>
+        <div class="employee-card">
+            <img src="images/cristina.jpg" alt="Ana Cristina Borja">
+            <p><strong>María López</strong><br>Executive Director</p>
+        </div>
+        <div class="employee-card">
+            <img src="images/adriana.jpg" alt="Adriana Borja">
+            <p><strong>María López</strong><br>Customer Service</p>
+            </div>
+        <!-- Add more employee cards as needed -->
+        </div>
+    
+        <div class="form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <fieldset>
+            <legend>Purpose of Message:</legend>
+            <label>
+                <input type="radio" name="purpose" value="general" required>
+                General Inquiry
+            </label>
+            <label>
+                <input type="radio" name="purpose" value="reservation">
+                Reservation Question
+            </label>
+            <label>
+                <input type="radio" name="purpose" value="suggestion">
+                Website Suggestion
+            </label>
+            </fieldset>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <label>
+            <input type="checkbox" name="subscribe">
+            Please subscribe me to the monthly newsletter
+            </label>
+        
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        </div>
+
+       
+    </main>
+    <footer>
+        <p>©️2025 | ANIV RAFTINGS | Ivan Chulde | Ambato, Ecuador</p>
+        <nav class="sociallinks">
+          <a href="https://facebook.com"><img src="images/facebook.com.svg" alt="Facebook" width="50" /></a>
+          <a href="https://youtube.com"><img src="images/youtube.com.svg" alt="YouTube" width="50" /></a>
+          <a href="https://instagram.com"><img src="images/instagram.com.svg" alt="Instagram" width="50" /></a>
+        </nav>
+    </footer>
+    </body>
+</html>
